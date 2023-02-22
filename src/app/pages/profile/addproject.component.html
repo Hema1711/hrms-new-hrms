@@ -1,0 +1,31 @@
+
+
+<h3> Upcoming Projects </h3>
+
+<form>
+
+    <table class="table table-bordered mt-3">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Description</th>
+
+                            <th>Start_date</th>
+                            <th>End_date</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let projects of Projects">
+                            <td>{{ projects.project_name }}</td>
+                            <td> {{ projects.description }} </td>
+                            <td>{{ projects.start_date }}</td>
+                            <td>{{ projects.end_date }}</td>
+                            <td>{{ projects.status }}</td>
+                            <td>
+                                <!-- <button (click)="ondelete(id)" class="btn btn-success">Remove</button> -->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+</form>

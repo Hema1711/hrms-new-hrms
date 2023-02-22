@@ -1,0 +1,45 @@
+<h2>Manage Departments</h2>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+
+       
+            <div class="card-body">
+            <form>
+                <table class="table table-bordered mt-3">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Employee id</th>
+                            <th>Departments</th>
+                            <th>ID:Designation</th>
+                            <th>Total Employees</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let reports of Reports">
+                            <td>{{ reports.id }}</td>
+                            <td> {{ reports.department }} </td>
+                            <td>{{ reports.designation }}</td>
+                            <td>{{ reports.Total_employees }}</td>
+
+                            <td>
+                                <!-- <button (click)="ondelete(id)" class="btn btn-success">Remove</button> -->
+                                <button class="btn btn-primary" type="button" (click)="removeItem(item)">
+                                Remove
+                                </button>
+                                 <button class="btn btn-primary" type="button" (click)="removeItem(item)">
+                                Edit
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button class="btn btn-success" (click)="addept()">Add Department</button> 
+
+            </form>
+            <div>
+
+        </div>
+    </div>
+</div>   

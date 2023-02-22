@@ -1,0 +1,146 @@
+<div class="container-xl">
+  <div class="table-responsive">
+    <div class="table-wrapper">
+      <div class="table-title">
+        <div class="row">
+          <div class="col-sm-6">
+            <h4><b> New Employee Registration</b></h4>
+          </div>
+          <button class="btn btn-success" (click)="addemp()">AddEmployee +</button>
+          
+        </div>
+      </div>
+      <table class="table table-striped table-hover table-bordered table-content">
+        <thead>
+          <tr class="center-align">
+            <!-- <th>S.No</th> -->
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Phone</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr class="center-align">
+            <!-- <tr *ngFor = "let employee of employees">  -->
+              <td> 1 </td>
+              <td> Manju </td>
+              <td> sathyam </td>
+              <td> manjusathyamccw@gmail.com </td>
+              <td> 4365476575</td> 
+             <!-- <td> {{ employee.first_name }} </td>
+              <td> {{ employee.last_name }} </td>
+              <td> {{ employee.email }} </td>
+              <td> {{ employee.address }} </td>
+              <td> {{ employee.Phone }} </td> 
+              -->  
+              <td>
+                <button type="button" class="btn btn-success"><i class='fas fa-trash-alt delete'></i>Edit</button>
+
+                <button type="button" class="btn btn-success"><i class='fas fa-trash-alt delete'></i>Delete</button>
+              </td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <div class="row">
+  <div class="col-lg-6">
+    <nb-card>
+      <nb-card-header>Employee Details</nb-card-header>
+      <nb-card-body>
+        <form class="form-inline">
+          <input type="text" nbInput fullWidth placeholder="First Name">
+          <div class="full-name-inputs">
+            <input type="text" nbInput fullWidth placeholder="Last Name">
+            <input type="text" nbInput fullWidth placeholder="Email">
+          </div>
+          <input type="Password" nbInput fullWidth placeholder="Password">
+          <input type="emp_number" nbInput fullWidth placeholder="emp_number">
+          <input type="address" nbInput fullWidth placeholder="address">
+          <input type="upload_photo" nbInput fullWidth placeholder="upload_photo">
+          <input type="resume" nbInput fullWidth placeholder="resume">
+          <input type="date_of_birth" nbInput fullWidth placeholder="date_of_birth">
+          <input type="join_date" nbInput fullWidth placeholder="join_date">
+          <input type="employee_designation" nbInput fullWidth placeholder="employee_designation">
+          <input type="current_sign_in_at" nbInput fullWidth placeholder="current_sign_in_at">
+          <input type="last_sign_in_at" nbInput fullWidth placeholder="last_sign_in_at">
+          <input type="sign_out_at" nbInput fullWidth placeholder="sign_out_at">
+          <button type="submit" nbButton status="primary">Submit</button>
+        </form>
+      </nb-card-body>
+    </nb-card>
+  </div>
+ -->
+  
+
+  <!-- <div class="col-lg-6">
+
+    <nb-card>
+      <nb-card-header>Select</nb-card-header>
+      <nb-card-body>
+        <nb-select selected="1">
+          <nb-option value="1">Option 1</nb-option>
+          <nb-option value="2">Option 2</nb-option>
+        </nb-select>
+      </nb-card-body>
+    </nb-card>
+
+    <nb-card>
+      <nb-card-header>Validation States</nb-card-header>
+      <nb-card-body>
+        <input type="text" nbInput fullWidth status="info"  placeholder="Input with Info">
+        <input type="text" nbInput fullWidth status="success"  placeholder="Warning Input">
+        <input type="text" nbInput fullWidth status="warning"  placeholder="Danger Input">
+        <input type="text" nbInput fullWidth status="danger" placeholder="Danger Input">
+        <input type="text" nbInput fullWidth status="primary"  placeholder="Input with Primary">
+        <div class="validation-checkboxes">
+          <nb-checkbox status="success">Success Checkbox</nb-checkbox>
+          <nb-checkbox status="warning">Warning Checkbox</nb-checkbox>
+          <nb-checkbox status="danger">Danger Checkbox</nb-checkbox>
+        </div>
+      </nb-card-body>
+    </nb-card>
+
+    <nb-card>
+      <nb-card-header>Checkboxes & Radios</nb-card-header>
+      <nb-card-body class="checkbox-radio">
+        <div class="demo-items">
+          <nb-checkbox>Checkbox 1</nb-checkbox>
+          <nb-checkbox checked>Checkbox 2</nb-checkbox>
+        </div>
+        <div class="demo-items">
+          <nb-radio-group [(value)]="radioGroupValue">
+            <nb-radio
+              [value]="'This is value 1'">
+              Radio 1
+            </nb-radio>
+            <nb-radio
+              [value]="'This is value 2'">
+              Radio 2
+            </nb-radio>
+            <nb-radio
+              [value]="'This is value 3'">
+              Radio 3
+            </nb-radio>
+          </nb-radio-group>
+        </div>
+        <div class="demo-items">
+          <nb-checkbox disabled>Disabled Checkbox</nb-checkbox>
+          <nb-radio-group disabled>
+            <nb-radio
+              [value]="'Disabled Value'">
+              Disabled Radio
+            </nb-radio>
+          </nb-radio-group>
+        </div>
+      </nb-card-body>
+    </nb-card> 
+  </div> -->
+<!-- </div> -->

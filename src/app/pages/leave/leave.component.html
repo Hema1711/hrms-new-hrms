@@ -1,0 +1,63 @@
+<!-- <ng-container>
+  <h2>Leave Status</h2>
+    <div class="row">
+      <nb-card class="col-lg-2 col-6">
+        <b><nb-card-body>Total Employees Strength</nb-card-body></b>
+        <nb-card-header><h4>{{[30]}}</h4></nb-card-header>
+      </nb-card>
+
+      <nb-card class="col-lg-2 col-6">
+        <b><nb-card-body> Employees Present Today</nb-card-body></b>
+        <nb-card-header><h4>{{[10]}}</h4></nb-card-header>
+      </nb-card>
+
+       <nb-card class="col-lg-2 col-6">
+        <b><nb-card-body> Total Absent</nb-card-body></b>
+        <nb-card-header><h4>{{[10]}}</h4></nb-card-header>
+      </nb-card>
+
+      <nb-card class="col-lg-2 col-6">
+        <b><nb-card-body>On Leave Today</nb-card-body></b>
+        <nb-card-header><h4>{{[0]}}</h4></nb-card-header>
+      </nb-card>
+    </div>
+</ng-container>
+ -->
+
+
+<h2> Attendance Report </h2>
+  <form>
+    <table class="form-group">          
+        <tr>
+            <th> Employee id </th>
+            <th> Employee Name </th>
+            <th> Attendance By </th>
+            <th> Shift </th>
+            <th> In-Time </th>
+            <th> Out-Time </th>
+            <th> Status </th>
+
+        </tr>
+    <tbody> 
+        <tr>
+            <td ><input type="textarea" class="form-control" name="Employee Id"></td>
+            <td ><input type="textarea" class="form-control" name="Employee Name"></td>
+            <td><input type="text" class="form-control" name="Attendance By"></td>
+
+            <td><input type="text"  class="form-control" name="Shift"></td>
+            <td><input type="date"  class="form-control" name="In-Time"></td>
+            <td><input type="date"  class="form-control" name="Out-Time"></td>
+            <td>
+                <select placeholder="Select Status" input type="text" class="form-control">
+                  <option>Active<option>
+                  <option>Inactive</option>
+                  <option>OnLeave</option>
+                </select>
+            </td>
+
+            <td> <button class="btn btn-success" (click)="addleave()">Add Leave</button> </td>
+        </tr>
+    </tbody>
+    </table>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>

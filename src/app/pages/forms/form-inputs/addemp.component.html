@@ -1,0 +1,395 @@
+ <h3> New Employee Registration</h3>
+
+<!-- <div class="row">
+  <div class="col-md-12">
+    <nb-card class="inline-form-card">
+      <nb-card-header>Inline form</nb-card-header>
+      <nb-card-body>
+        <form class="form-inline">
+          <input type="text" nbInput fullWidth placeholder="Jane Doe">
+          <input type="text" nbInput fullWidth placeholder="Email">
+          <nb-checkbox>Remember me</nb-checkbox>
+          <button type="submit" nbButton status="primary">Submit</button>
+        </form>
+      </nb-card-body>
+    </nb-card>
+  </div>
+</div> -->
+
+<div class="row">
+  <div class="col-md-6">
+    <nb-card>
+      <nb-card-header>Employee Registration</nb-card-header>
+      <nb-card-body>
+        <form>
+          <div class="form-group row">
+            <label for="inputEmail1" class="label col-sm-3 col-form-label">Name</label>
+            <div class="col-sm-9">
+              <input type="email" nbInput fullWidth id="inputEmail1" placeholder="Name">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail1" class="label col-sm-3 col-form-label">Father Name</label>
+            <div class="col-sm-9">
+              <input type="email" nbInput fullWidth id="inputEmail1" placeholder="Father Name">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail1" class="label col-sm-3 col-form-label">Date Of Birth</label>
+            <div class="col-sm-9">
+              <input type="date" nbInput fullWidth id="inputEmail1" placeholder="Date Of Birth">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail1" class="label col-sm-3 col-form-label">Phone Number</label>
+            <div class="col-sm-9">
+              <input type="email" nbInput fullWidth id="inputEmail1" placeholder="Phone Number">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail1" class="label col-sm-3 col-form-label">Gender</label>
+            <div class="col-sm-9">
+              <input type="email" nbInput fullWidth id="inputEmail1" placeholder="Gender">
+            </div>
+          </div>
+           <div class="form-group row">
+            <label for="inputEmail1" class="label col-sm-3 col-form-label">Local Address</label>
+            <div class="col-sm-9">
+              <input type="email" nbInput fullWidth id="inputEmail1" placeholder="Local Address">
+            </div>
+          </div>
+           <div class="form-group row">
+            <label for="inputEmail1" class="label col-sm-3 col-form-label">Permanent Address</label>
+            <div class="col-sm-9">
+              <input type="email" nbInput fullWidth id="inputEmail1" placeholder="Permanent Address">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail1" class="label col-sm-3 col-form-label">Nationality</label>
+            <div class="col-sm-9">
+              <input type="email" nbInput fullWidth id="inputEmail1" placeholder="Nationality">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail1" class="label col-sm-3 col-form-label">Marital Status</label>
+            <div class="col-sm-9">
+              <input type="email" nbInput fullWidth id="inputEmail1" placeholder="Marital Status">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail1" class="label col-sm-3 col-form-label">Upload Photo</label>
+            <div class="col-sm-9">
+              <input type="file" nbInput fullWidth id="inputEmail1" placeholder="Upload Photo">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail1" class="label col-sm-3 col-form-label">comment </label>
+            <div class="col-sm-9">
+              <input type="email" nbInput fullWidth id="inputEmail1" placeholder="comment">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputEmail1" class="label col-sm-3 col-form-label">Email</label>
+            <div class="col-sm-9">
+              <input type="email" nbInput fullWidth id="inputEmail1" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword2" class="label col-sm-3 col-form-label">Password</label>
+            <div class="col-sm-9">
+              <input type="password" nbInput fullWidth id="inputPassword2" placeholder="Password">
+            </div>
+          </div>
+          <!-- <div class="form-group row">
+            <label class="col-sm-3 label">Radios</label>
+            <div class="col-sm-9">
+              <nb-radio-group>
+                <nb-radio>Option 1</nb-radio>
+                <nb-radio>Option 2</nb-radio>
+                <nb-radio disabled>Disabled Option</nb-radio>
+              </nb-radio-group>
+            </div>
+          </div> -->
+        </form>
+      </nb-card-body>
+    </nb-card>
+
+  </div>
+
+  <div class="col-md-6">
+    <nb-card>
+      <nb-card-header>Documents</nb-card-header>
+      <nb-card-body>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1" class="label">Resume File</label>
+            <input type="file" nbInput fullWidth id="exampleInputEmail1" placeholder="Resume">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1" class="label">Contract & Agreement</label>
+            <input type="file" nbInput fullWidth id="exampleInputPassword1" placeholder="Contract">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1" class="label">Joining Letter</label>
+            <input type="file" nbInput fullWidth id="exampleInputPassword1" placeholder="Letter">
+          </div>
+
+          <!-- <div class="form-group">
+            <nb-checkbox>Check me out</nb-checkbox>
+          </div> -->
+          <button type="submit" nbButton status="danger">Submit</button>
+        </form>
+      </nb-card-body>
+    </nb-card>
+
+    <nb-card>
+      <nb-card-header>Bank Account Details</nb-card-header>
+      <nb-card-body>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="inputFirstName" class="label">Account Holder Name</label>
+              <input type="text" nbInput fullWidth id="inputFirstName" placeholder="First Name">
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="inputLastName" class="label">Account Number</label>
+              <input type="text" nbInput fullWidth id="inputLastName" placeholder="Last Name">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="inputEmail" class="label">Bank Name</label>
+              <input type="email" nbInput fullWidth id="inputEmail" placeholder="Email">
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="inputWebsite" class="label">Branch Name</label>
+              <input type="text" nbInput fullWidth id="inputWebsite" placeholder="Website">
+            </div>
+          </div>
+           <div class="col-sm-6">
+            <div class="form-group">
+              <label for="inputWebsite" class="label">IFSC Code</label>
+              <input type="text" nbInput fullWidth id="inputWebsite" placeholder="Website">
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary" nbButton>Submit</button>
+      </nb-card-body>
+    </nb-card>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <nb-card>
+      <nb-card-header>Company Details</nb-card-header>
+      <nb-card-body>
+        <form class="form-horizontal">
+          <div class="form-group row">
+            <label for="inputEmail3" class="label col-sm-3 form-control-label">Employee ID</label>
+            <div class="col-sm-9">
+              <input type="number" nbInput fullWidth id="inputEmail3" placeholder="Employee ID">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword3" class="label col-sm-3 form-control-label">Department</label>
+            <div class="col-sm-9">
+              <input type="Department" nbInput fullWidth id="inputPassword3" placeholder="Department">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword3" class="label col-sm-3 form-control-label">Designation</label>
+            <div class="col-sm-9">
+              <input type="password" nbInput fullWidth id="inputPassword3" placeholder="Designation">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword3" class="label col-sm-3 form-control-label">Date of Joining</label>
+            <div class="col-sm-9">
+              <input type="date" nbInput fullWidth id="inputPassword3" placeholder="Date of Joining">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword3" class="label col-sm-3 form-control-label">Date of Leaving</label>
+            <div class="col-sm-9">
+              <input type="date" nbInput fullWidth id="inputPassword3" placeholder="Date of Leaving">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword3" class="label col-sm-3 form-control-label">Shift</label>
+            <div class="col-sm-9">
+              <input type="password" nbInput fullWidth id="inputPassword3" placeholder="Shift">
+            </div>
+          </div>
+        
+        </form>
+      </nb-card-body>
+    </nb-card>
+    <div>
+      <div class="offset-sm-3 col-sm-9">
+          <button class="btn btn-success" (click)="gotoalert()">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="col-sm-6">
+    <div class="overlay">
+        <nb-card>
+                <nb-card-body>
+                    <form>
+                      <div class="table-content">
+                        <div class="form-group p-10 row">
+                          <div class="col-sm-3">
+                            <label for="FirstName" class="p-t-b-10">First Name<span class="requiredStar">*</span></label>
+                          </div>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" required maxlength="255" name="FirstName">
+                          </div>
+                        </div>
+                        <div class="form-group p-10 row">
+                          <div class="col-sm-3">
+                            <label class="p-t-b-10">Last Name<span class="requiredStar">*</span></label>
+                          </div>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" required maxlength="255" name="LastName">
+                          </div>
+                        </div>
+                        <div class="form-group p-10 row">
+                          <div class="col-sm-3">
+                            <label class="p-t-b-10">Employee Number<span class="requiredStar">*</span></label>
+                          </div>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" required maxlength="255" name="Employee Number">
+                          </div>
+                        </div>
+                        <div class="form-group p-10 row">
+                          <div class="col-sm-3">
+                            <label class="p-t-b-10">Email<span class="requiredStar">*</span></label>
+                          </div>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" id="Email" required maxlength="255" name="Email" 
+                              pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9]{2,3}$">
+                          </div>
+                        </div>
+                        <div class="form-group p-10 row">
+                          <div class="col-sm-3">
+                            <label class="p-t-b-10">Password<span class="requiredStar">*</span></label>
+                          </div>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" required maxlength="255" name="Password">
+                          </div>
+                        </div>
+                        <div class="form-group p-10 row">
+                          <div class="col-sm-3">
+                            <label class="p-t-b-10">Address<span class="requiredStar">*</span></label>
+                          </div>
+                          <div class="col-sm-9">
+                            <textarea class="form-control" id="Address" name="Address"></textarea>
+                          </div>
+                        </div>
+                        <div class="form-group p-10 row">
+                          <div class="col-sm-3">
+                            <label class="p-t-b-10">Phone<span class="requiredStar">*</span></label>
+                          </div>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" required maxlength="10"
+                              name="Phone" pattern="^\d{3}\d{3}\d{4}$">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group p-10 row">
+                          <div class="col-sm-3">
+                            <label class="p-t-b-10">Upload Photo<span class="requiredStar">*</span></label>
+                          </div>
+                          <div class="col-sm-9">
+                            <textarea class="form-control" id="Address" name="Address"></textarea>
+                          </div>
+                      </div>
+                      <div class="form-group p-10 row">
+                        <div class="col-sm-3">
+                          <label class="p-t-b-10">Resume<span class="requiredStar">*</span></label>
+                        </div>
+                        <div class="col-sm-9">
+                          <textarea class="form-control" id="Address" name="Address"></textarea>
+                        </div>
+                      </div>
+                      <div class="form-group p-10 row">
+                          <div class="col-sm-3">
+                            <label class="p-t-b-10">date_of_birth<span class="requiredStar">*</span></label>
+                          </div>
+                          <div class="col-sm-9">
+                            <textarea class="form-control" id="Address" name="date_of_birth"></textarea>
+                          </div>
+                      </div>
+                      <div class="form-group p-10 row">
+                          <div class="col-sm-3">
+                            <label class="p-t-b-10">join_date<span class="requiredStar">*</span></label>
+                          </div>
+                          <div class="col-sm-9">
+                            <textarea class="form-control" id="Address" name="join_date"></textarea>
+                          </div>
+                      </div>
+                      <div class="form-group p-10 row">
+                          <div class="col-sm-3">
+                            <label class="p-t-b-10">employee_designation<span class="requiredStar">*</span></label>
+                          </div>
+                          <div class="col-sm-9">
+                            <textarea class="form-control" id="Address" name="employee_designation"></textarea>
+                          </div>
+                      </div>
+                      <div class="form-group p-10 row">
+                          <div class="col-sm-3">
+                            <label class="p-t-b-10">current_sign_in_at<span class="requiredStar">*</span></label>
+                          </div>
+                          <div class="col-sm-9">
+                            <textarea class="form-control" id="Address" name="current_sign_in_at"></textarea>
+                          </div>
+                      </div>
+                       <div class="form-group p-10 row">
+                          <div class="col-sm-3">
+                            <label class="p-t-b-10">last_sign_in_at<span class="requiredStar">*</span></label>
+                          </div>
+                          <div class="col-sm-9">
+                            <textarea class="form-control" id="Address" name="last_sign_in_at"></textarea>
+                          </div>
+                      </div>
+                       <div class="form-group p-10 row">
+                          <div class="col-sm-3">
+                            <label class="p-t-b-10">sign_out_at<span class="requiredStar">*</span></label>
+                          </div>
+                          <div class="col-sm-9">
+                            <textarea class="form-control" id="Address" name="sign_out_at"></textarea>
+                          </div>
+                      </div>
+
+                        <nb-card-header>Select Gender</nb-card-header>
+                        <nb-card-body>
+                          <nb-select selected="1">
+                            <nb-option value="1">Male</nb-option>
+                            <nb-option value="2">Female</nb-option>
+                          </nb-select>
+                        </nb-card-body>
+                      
+                      <div class="table-footer">
+                         <button class="btn btn-success">Submit</button> -->
+                        <!-- <button class="btn btn-success">Submit</button> -->
+                        <!-- <button class="btn btn-success" (click)="gotoalert()">Submit</button> -->
+
+              <!--         </div>
+                    </form>
+                </nb-card-body>
+        <nb-card>
+    <div>
+</div>
+ -->
+
+ 

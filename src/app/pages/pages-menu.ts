@@ -8,8 +8,18 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
   {
-    title: 'FEATURES',
-    group: true,
+    title: 'All Employees',
+    icon: 'edit-2-outline',
+    children: [
+      {
+        title: 'Employee Registration',
+        link: '/pages/forms/inputs',
+      },
+      {
+        title: 'Performance Record',
+        link: '/pages/forms/records',
+      },
+    ],
   },
   {
     title: 'Auth',
@@ -32,5 +42,25 @@ export const MENU_ITEMS: NbMenuItem[] = [
         link: '/auth/reset-password',
       },
     ],
+  },
+  {
+    title: 'Recruitment Management',
+    link: '/pages/profile'
+  },
+  {
+    title: 'Contract Details',
+    link: '/pages/contract'
+  },
+  {
+    title: 'Leave Management',
+    link: '/pages/leave'
+  },
+  {
+    title: 'Payroll Automation',
+    link: '/pages/payroll'
+  },
+  {
+    title: 'Manage Departments',
+    link: '/pages/events'
   },
 ];

@@ -1,0 +1,56 @@
+<h2>Employee Reports </h2>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+
+           <!--  <input #myuser type="text" class="form-control" [placeholder]="UserName">
+            <input #myuser type="text" class="form-control" [placeholder]="Email">
+ -->
+            <!-- <button (click)="onclick(myuser)" class="btn btn-success mt-3">Add Employee</button> -->
+            <!-- <button class="btn btn-success mt-3">Add Employee</button> -->
+
+            <div class="card-body">
+            <form>
+                <table class="table table-bordered mt-3">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>id</th>
+                            <th>project_name</th>
+                            <th>task</th>
+                            <th>sprint_start_date</th>
+                            <th>sprint_end_date</th>
+                            <th>reporting_to</th>
+                            <th>status</th>
+                            <th>current_sign_in_at</th>
+                            <th>task_type</th>
+                            <th>hours_spent</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let reports of Reports">
+                            <td>{{ reports.id }}</td>
+                            <td> {{ reports.project_name }} </td>
+                            <td>{{ reports.task }}</td>
+                            <td>{{ reports.sprint_start_date }}</td>
+                            <td>{{ reports.sprint_end_date }}</td>
+                            <td>{{ reports.reporting_to }}</td>
+                            <td>{{ reports.status }}</td>
+                            <td>{{ reports.current_sign_in_at }}</td>
+                            <td>{{ reports.task_type }}</td>
+                            <td>{{ reports.hours_spent }}</td>
+
+                            <td>
+                                <!-- <button (click)="ondelete(id)" class="btn btn-success">Remove</button> -->
+                                <button class="btn btn-primary" type="button" (click)="removeItem(item)">
+                                Remove
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+            <div>
+
+        </div>
+    </div>
+</div>   
