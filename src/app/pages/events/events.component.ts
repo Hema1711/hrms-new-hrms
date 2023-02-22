@@ -37,9 +37,8 @@ Reports = [
          designation: 'Account Manager',
          Total_employees: '0',
       },
-   ]
-  
-   constructor(private route:ActivatedRoute,private router:Router) { }
+   ];
+   constructor(private route: ActivatedRoute, private router: Router) { }
    addept(): void {
       this.router.navigate(['pages/addept']);
    }

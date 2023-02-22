@@ -6,7 +6,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   templateUrl: './profile.component.html',
 })
 export class ProfileComponent {
-  constructor(private route:ActivatedRoute,private router:Router) { }
+  constructor(private route: ActivatedRoute, private router: Router) { }
   addjob(): void {
     this.router.navigate(['pages/addjob']);
   }

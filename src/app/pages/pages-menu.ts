@@ -45,22 +45,22 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
   {
     title: 'Recruitment Management',
-    link: '/pages/profile'
+    link: '/pages/profile',
   },
   {
     title: 'Contract Details',
-    link: '/pages/contract'
+    link: '/pages/contract',
   },
   {
     title: 'Leave Management',
-    link: '/pages/leave'
+    link: '/pages/leave',
   },
   {
     title: 'Payroll Automation',
-    link: '/pages/payroll'
+    link: '/pages/payroll',
   },
   {
     title: 'Manage Departments',
-    link: '/pages/events'
+    link: '/pages/events',
   },
 ];

@@ -41,5 +41,5 @@ export class AddProjectComponent {
       end_date: '15/2/2023',
       status: '-',
     },
-  ]
+  ];
 }

@@ -8,7 +8,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class LeaveComponent {
 
-  constructor(private route:ActivatedRoute,private router:Router) { }
+  constructor(private route: ActivatedRoute, private router: Router) { }
 
 
   addleave(): void {

@@ -11,7 +11,7 @@ import { Http } from '@angular/http';
 })
 export class FormInputsComponent {
 
-  constructor(private route:ActivatedRoute,private router:Router) { }
+  constructor(private route: ActivatedRoute, private router: Router) { }
   addemp(): void {
     this.router.navigate(['/pages/forms/addemp']);
   }

@@ -52,5 +52,5 @@ export class RecordsComponent {
       task_type: 'Medium',
       hours_spent: '-',
     },
-  ]
+  ];
 }
